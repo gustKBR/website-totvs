@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
+  <title>Programa START</title>
+</head>
+<body>
+  <div class="content">
+    <div class="text">
+      <h1 class="title">Lorem Ipsum is simply dummy text</h1>
+      <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+      <a href="#">Download</a>
+    </div>
+    <div class="image">
+      <img src="static/img/caral.jpg">
+    </div>
+  </div>
+  <div class="skills">
+    <h2>Lorem Ipsum is simply</h2>
+    <div class="skills-group">
+      <div class="skills-row">
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="skills-row">
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p class="skill-title">Básico</p>
+          <div class="skill-level">
+            <div class="percentage"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="projects">
+    <p class="highlights">Trabalhos em destaque</p>
+    <div></div>
+  </div>
+  <script>
+    fetch("static/mock/data.json")
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(project => {
+        document.querySelector(".projects").innerHTML += `
+        <div class="everything">
+        <a href="${project.link}">
+          <div class="link"></div></a><br>
+        <div class="info">
+        <h2>
+          ${project.title}
+        </h2><br>
+        <div class="items">
+        <span class="year">
+          ${project.year}
+        </span>
+        <span class="category">
+          ${project.category}
+        </span></div><br>
+        <p class="description">
+          ${project.description}
+        </p><br>
+        </div>
+        </div>
+        `
+      })
+    })
+  </script>
+</body>
+</html>
