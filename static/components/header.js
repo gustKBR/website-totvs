@@ -1,5 +1,4 @@
 function Header (){
-  console.log("oi")
   document.getElementById('navbar').innerHTML = `
   <nav>
     <div class="first-bar"></div>

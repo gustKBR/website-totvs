@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/header.css">
+  <link rel="stylesheet" href="./static/css/footer.css">
   <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Programa START</title>
 </head>
 <body>
+  <header id="navbar"></header>
   <div class="content">
     <div class="text">
       <h1 class="title">Lorem Ipsum is simply dummy text</h1>
@@ -82,6 +85,10 @@
     <p class="highlights">Trabalhos em destaque</p>
     <div></div>
   </div>
+  <footer id="footer">
+  </footer>
+  <script src="./static/components/header.js"></script>
+  <script src="./static/components/footer.js"></script>
   <script>
     fetch("static/mock/data.json")
     .then(response => response.json())
