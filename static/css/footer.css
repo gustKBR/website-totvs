@@ -1,0 +1,34 @@
+footer{
+  width: 100%;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F3F3F3;
+  margin: auto;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.icons a{
+  margin: 10px;
+  color: #21243D;
+}
+
+.icons i{
+  font-size: 1.5em;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p{
+  font-size: 14px;
+  color: #21243D;
+}
