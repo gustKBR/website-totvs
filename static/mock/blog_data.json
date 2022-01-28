@@ -1,26 +1,26 @@
 [
   {
-    "button": "titulo a",
-    "title": "t a",
-    "text": "a",
-    "publishDate": 2021,
-    "category": "a",
-    "description": "a"
+    "button": "Minha experiência com programação",
+    "title": "Minha experiência com programação",
+    "text": "No meu ensino fundamental, tive uma matéria chamada Clube Juvenil, onde os alunos tinham a oportunidade de ministrar aulas. No ano de 2018, me inscrevi em um chamado \"Programando em Python\". Lá tive a oportunidade de dar os primeiros passos da minha jornada na programação, aprendendo conceitos básicos de lógica através da linguagem Python e na plataforma de programação em blocos \"Scratch\".<br>Após concluir meu ensino fundamental, cursei o técnico em Desenvolvimento de Sistemas integrado ao ensino médio na ETEC de Hortolândia, onde pude aprimorar ainda mais a minha lógica de programação e ter contato com linguagens e tecnologias novas, tais como: HTML, CSS, JavaScript, Arduino, MySQL, PHP, ReactJS/React Native, C++, C#.",
+    "publishDate": 2022,
+    "category": "Pessoal",
+    "description": "Um breve resumo da minha jornada em programação."
   },
   {
-    "button": "titulo b",
-    "title": "t b",
-    "text": "b",
-    "publishDate": 2021,
-    "category": "b",
-    "description": "b"
+    "button": "O que gosto de fazer",
+    "title": "O que gosto de fazer",
+    "text": "No meu tempo livre, gosto de jogar/sair com os meus amigos, assistir filmes e séries, praticar esportes. Gosto muito de ouvir música e, por isso, um dos meus projetos para esse ano é aprender a tocar violão e, posteriormente, outros instrumentos.",
+    "publishDate": 2022,
+    "category": "Pessoal",
+    "description": "Alguns dos meus hobbies..."
   },
   {
-    "button": "titulo c",
-    "title": "t c",
-    "text": "c",
-    "publishDate": 2020,
-    "category": "c",
-    "description": "c"
+    "button": "Minha experiência no Programa Start",
+    "title": "Minha experiência no Programa Start",
+    "text": "Desde que o programa começou, tenho aprendido coisas novas a cada dia que passa, seja na monitoria ou individualmente. Para mim, foram horas valiosas de muito aprendizado, que realmente mudaram a minha perspectiva do mundo da tecnologia e acabei percebendo o quão importante é estar atualizado, pois o mercado requer isso. Pela primeira vez, tive contato com comandos git no terminal, porque até então eu fazia isso pela interface do VSCode. Além disso, com a prática todos os dias, muitos processos se tornaram naturais, como a parte de comandos/tags, que estou lembrando com mais facilidade, principalmente em CSS, que sempre tive mais dificuldade.<br>Enfim, foi ótimo ter uma imersão em um projeto como esse e estar ao lado de profissionais tão competentes e prestativos!",
+    "publishDate": 2022,
+    "category": "TOTVS",
+    "description": "Como está sendo a minha experiência com o projeto e como isso têm mudado minha forma de pensar."
   }
 ]
