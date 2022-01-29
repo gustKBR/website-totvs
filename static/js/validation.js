@@ -69,16 +69,36 @@ function resetStyles(){
   Array.from(document.getElementById("expenses-row").children).forEach(child => {child.classList.remove("highlighted")});
 }
 
-function sumValues() {
-  var arr = document.querySelectorAll('.total_value');
-  var total = 0;
-  for (var i = 0; i < array.length; i++) {
-      if (parseInt(arr[i].value)) {
-        total += parseInt(arr[i].value);
-      }
-  }
+function sumValues(){
+        
+  var tabela = document.getElementsByClassName("unit_value");
+  var unitValue = 0;
+  var amount = 0;
 
-  document.getElementById('grand_total').value = total;
+  for( var i = 1; i < tabela.length; i++){    
+      var unitvl = tabela[i].value;
+      
+      unitValue = unitValue + parseInt(unitvl);
+  };
+
+  tabela = document.getElementsByClassName("amount");
+  
+  for( var i = 1; i < tabela.length; i++){    
+      var qtde = tabela[i].value;
+      
+      amount = amount + parseInt(qtde);
+  };
+
+  var result = parseInt(unitValue) * parseInt(amount);
+  $('#grand_total').val(result).innerHTML = result;
+  var limit = 400;    
+
+  if(limit <= result){
+      document.getElementById("warning").innerHTML = "Limite de R$ 400,00 atingido. A solicitação irá passar por uma revisão.";
+  }
+  else{
+      document.getElementById("warning").innerHTML = "Limite aceito!";    
+  }
 }
 
 function confirmMessage() {
@@ -86,6 +106,5 @@ function confirmMessage() {
     icon: 'success',
     title: 'Your work has been saved',
     showConfirmButton: false,
-    timer: 144432312
   })
 }

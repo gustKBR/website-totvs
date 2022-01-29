@@ -1,23 +1,26 @@
 [
   {
-    "title": "teste",
+    "title": "Galeria de doguinhos",
     "year": 2021,
-    "category": "teste",
-    "description": "teste",
-    "link": "link para o site"
+    "category": "Estudos Desenvolvimento Web",
+    "description": "Minha primeira galeria usando Lightbox2<br>Link de referência: https://www.youtube.com/watch?v=TSRtBISvsh4",
+    "link": "link para o site",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/funny-dog-captions-1563456605.jpg"
   },
   {
-    "title": "teste",
+    "title": "Starbucks Landing Page",
     "year": 2021,
-    "category": "teste",
-    "description": "teste",
-    "link": "link para o site"
+    "category": "Estudos Desenvolvimento Web",
+    "description": "Site dedicado ao Starbucks<br>Link de referência: https://www.youtube.com/watch?v=91Q6RvKvd7o",
+    "link": "link para o site",
+    "image": "https://catracalivre.com.br/wp-content/uploads/2018/06/cafe-reproducao-Instagram-Starbucks.jpg"
   },
   {
-    "title": "teste",
-    "year": 2020,
-    "category": "teste",
-    "description": "teste",
-    "link": "link para o site"
+    "title": "Parallax Scrolling Website",
+    "year": 2021,
+    "category": "Estudos Desenvolvimento Web",
+    "description": "Site desenvolvido com o efeito Parallax Scrolling<br>Link de referência: https://www.youtube.com/watch?v=1wfeqDyMUx4",
+    "link": "link para o site",
+    "image": "https://i.ytimg.com/vi/WH6t4nC0Ueg/maxresdefault.jpg"
   }
 ]

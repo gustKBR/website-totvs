@@ -21,10 +21,9 @@
 
 .text h1{
   width: 506px;
-  height: 105px;
+  height: 85px;
   font-weight: 700;
   font-size: 44px;
-  line-height: 60px;
 }
 
 .text p{
@@ -33,8 +32,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
-  margin-top: 40px;
-  margin-bottom: 38px;
+  margin-bottom: 80px;
+  text-align: justify;
 }
 
 .text a{
@@ -86,10 +85,12 @@
 }
 
 .skill-title{
+  width: 150px;
   height: 34px;
   font-size: 20px;
   color: #8695A4;
   margin-right: 50px;
+  white-space: nowrap;
 }
 
 .skill-level{
@@ -104,8 +105,57 @@ hr{
   border: 1px solid #989898;
 }
 
-.percentage{
+.percentage1{
+  width: 75%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage2{
+  width: 50%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage3{
+  width: 50%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage4{
   width: 25%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage5{
+  width: 100%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage6{
+  width: 100%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage7{
+  width: 100%;
+  height: 100%;
+  background: #7A7A7A;
+  border-radius: 6px;
+}
+
+.percentage8{
+  width: 100%;
   height: 100%;
   background: #7A7A7A;
   border-radius: 6px;
@@ -145,6 +195,12 @@ hr{
 
 .everything a{
   height: fit-content;
+}
+
+.figure{
+  height: 180px;
+  width: 246px;
+  border-radius: 6px;
 }
 
 .link{

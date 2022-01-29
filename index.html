@@ -15,67 +15,67 @@
   <header id="navbar"></header>
   <div class="content">
     <div class="text">
-      <h1 class="title">Lorem Ipsum is simply dummy text</h1>
-      <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-      <a href="#">Download</a>
+      <h1 class="title">Gustavo Cabral Correia</h1>
+      <p class="description">Sou técnico em Desenvolvimento de Sistemas pela ETEC de Hortolândia e estou em busca do meu primeiro emprego. Estou disposto a contribuir com o crescimento da empresa, me adequando ao estilo da mesma, à medida que aprimoro meus conhecimentos e ganho experiência.</p>
+      <a href="https://www.canva.com/design/DAEieDM6wi8/-uI3DAjWdedPaeJPOfZk6Q/view?utm_content=DAEieDM6wi8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">Currículo</a>
     </div>
     <div class="image">
-      <img src="static/img/caral.jpg">
+      <img src="static/img/pfp.jpg">
     </div>
   </div>
   <div class="skills">
-    <h2>Lorem Ipsum is simply</h2>
+    <h2>Habilidades e competências</h2>
     <div class="skills-group">
       <div class="skills-row">
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">HTML</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage1"></div>
           </div>
         </div>
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">CSS</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage2"></div>
           </div>
         </div>
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">JavaScript</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage3"></div>
           </div>
         </div>
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">ReactJS</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage4"></div>
           </div>
         </div>
       </div>
       <hr>
       <div class="skills-row">
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">Trabalho em equipe</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage5"></div>
           </div>
         </div>
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">Proativo</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage6"></div>
           </div>
         </div>
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">Comunicação</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage7"></div>
           </div>
         </div>
         <div class="skill">
-          <p class="skill-title">Básico</p>
+          <p class="skill-title">Escuta</p>
           <div class="skill-level">
-            <div class="percentage"></div>
+            <div class="percentage8"></div>
           </div>
         </div>
       </div>
@@ -96,8 +96,8 @@
       data.forEach(project => {
         document.querySelector(".projects").innerHTML += `
         <div class="everything">
-        <a href="${project.link}" target="_blank">
-          <div class="link"></div></a><br>
+          <a href="${project.link}" target="_blank">
+            <div class="link"><img src="${project.image}" class="figure"></div></a><br>
         <div class="info">
         <h2>
           ${project.title}
