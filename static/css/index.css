@@ -176,12 +176,11 @@ hr{
   height: 60px;
   color: #21243D;
   font-size: 22px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .projects{
-  max-width: 1200px;
-  height: 846px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
